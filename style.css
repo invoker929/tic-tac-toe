@@ -1,0 +1,41 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0.5rem;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.cell-container {
+  display: grid;
+  grid-template-columns: repeat(3, 4rem);
+  grid-auto-rows: 4rem;
+  place-content: center;
+  margin: 1rem 0;
+}
+
+.cell {
+  font-size: 3.5rem;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 60px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.status-text {
+  margin: 1rem 0;
+}
+
+.restart-btn {
+  padding: 0.5rem 1rem;
+}
